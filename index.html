@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="calc.js"></script>
+    <title>JS CALCULATOR</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="header">
+            <h1>JS CALCULATOR</h1>
+        </header>
+        <aside class="aside1">
+            <button class="button123" id="reset" onclick="math_operation(this.id)">RESET</button><br><br>
+            <button class="button123" id="add" onclick="math_operation(this.id)">+</button>
+            <button class="button123" id="sub" onclick="math_operation(this.id)">-</button>
+            <button class="button123" id="mult" onclick="math_operation(this.id)">*</button>
+            <button class="button123" id="div" onclick="math_operation(this.id)">/</button><br><br>
+            <button class="button123" id="1" onClick="add_digit(this.id)">1</button>
+            <button class="button123" id="2" onClick="add_digit(this.id)">2</button>
+            <button class="button123" id="3" onClick="add_digit(this.id)">3</button><br>
+            <button class="button123" id="4" onClick="add_digit(this.id)">4</button>
+            <button class="button123" id="5" onClick="add_digit(this.id)">5</button>
+            <button class="button123" id="6" onClick="add_digit(this.id)">6</button><br>
+            <button class="button123" id="7" onClick="add_digit(this.id)">7</button>
+            <button class="button123" id="8" onClick="add_digit(this.id)">8</button>
+            <button class="button123" id="9" onClick="add_digit(this.id)">9</button><br>
+            <button class="button123" id="0" onClick="add_digit(this.id)">0</button>
+            <button class="button123" id="coma" onClick="math_operation(this.id)"> , </button>
+            <button class="button123" id="is" onClick="math_operation(this.id)">=</button>
+        </aside>
+        <main class="mainc">
+            <div id="main_calc"> 0 </div>
+            <div id="nr1"></div>
+            <div id="nr2">0</div>
+            <div id="operation"></div>
+            <div id="equal"></div>
+            <div id="comaa"></div>
+        </main>
+    
+
+
+
+    </div>
+</body>
+</html>
